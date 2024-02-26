@@ -1,0 +1,249 @@
+* {
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+    font-family: Avenir-Heavy;
+    src:url(../font/AEH.ttf);
+}
+
+@font-face {
+    font-family: Avenir-Roman;
+    src:url(../font/Avenir-Roman.ttf);
+}
+
+body {
+    background: rgba(26, 29, 41);
+}
+
+header {
+    height: 33px;
+    background: rgba(26, 29, 41);
+}
+
+.logo-dis {
+    text-align: center;
+    padding-left: 5px;
+    margin-bottom: 25px;
+}
+
+.logo-divices {
+    width: 100%;
+    margin-bottom: 10px;
+    /*filter: contrast(0%);*/
+    filter: opacity(0.4) drop-shadow(0 0 0 #0072D2); 
+}
+
+div.div-success {
+    width: 100%;
+    text-align: center;
+    
+}
+
+.img-success {
+    width: 25%;
+    margin-bottom: 10px;
+}
+
+h3 {
+    padding: 0px 0px 24px;
+    margin-bottom: 5px;
+    font-size: 23px;
+}
+
+div.img-cc {
+    text-align: center;
+}
+
+div.img-cc1 {
+    text-align: center;
+    position: relative;
+    top: 120px;
+    float: right;
+    padding-right: 10px;
+}
+
+
+form {
+    background: rgba(26, 29, 41);
+    padding: 0px;
+    margin: 0px;
+    width: 374px;
+    height: 580px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+form.form-2 {
+    background: rgba(26, 29, 41);
+    padding: 0px;
+    margin: 0px;
+    width: 374px;
+    height: 790px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+input {
+    background-color: hsla(0,0%,100%,.1);
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    caret-color: #02e7f5;
+    color: #f9f9f9;
+    min-height: 54px;
+    padding: 0 0.75rem;
+    width: 100%;
+    margin-bottom: 5px;
+}
+fieldset.f-mes{
+    outline: none;
+    float: left;
+    width: 48%;
+    margin-right: 4%;
+    border: none;
+}
+fieldset.f-cvv {
+    width: 48%;
+    border: none;
+    float: right;
+
+}
+
+button {
+    color: #fff;
+    background-color: #0072D2;
+    width: 100%;
+    height: 48px;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+label.label-primer {
+    color: #CACACA;
+    font-size: 15px;
+}
+
+label.label-distingue {
+    font-size: 12px;
+    color: #CACACA;
+}
+
+p.p-formcc {
+    font-family: Avenir-Heavy;
+    font-size: 10px;
+    color: #CACACA;
+    margin-top: 6px;
+    margin-left: 3px;
+}
+
+p.p-ter {
+    font-family: Avenir-Roman;
+    margin-top: 50px;
+    padding-top: 50px;
+    font-size: 12px;
+    color: #CACACA;
+    margin-bottom: 20px;
+}
+
+label.label-olvi {
+    font-size: 15px;
+    color: #66BCFF;
+}
+
+div.nopudi {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer {
+    width: 100%;
+    background: rgb(9, 11, 19);
+    text-align: center;
+}
+
+.container-footer {
+    width: 500px;
+    margin: auto;
+    
+}
+
+.footer ul, .container-footer{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.footer ul li{
+    display: inline-block;
+    height: 15px;
+    margin-bottom: 15px;
+    font-family: Avenir-Roman,sans-serif;
+    font-size: 12px;
+}
+
+div.footer-li {
+    margin-right: 25px;
+    margin-left: 25px;
+    color: #CACACA;
+    
+}
+
+div.txt-final-foot, div.term-final-foot {
+    font-size: 12px;
+    color: #CACACA;
+    margin-top: 10px;
+}
+
+@media (max-width: 520px) {
+    .container-footer {
+        width: 95%;
+        margin: auto;
+        
+    }
+}
+
+@media (max-width: 440px) {
+    form {
+        width: 90%;
+    }
+    
+    form.form-2 {
+        /*background: rgb(116, 26, 111);*/
+        width: 90%;
+        height: 825px;
+    }
+
+    .footer {
+        width: 100%;
+        /*background: rgb(24, 153, 110);*/
+        text-align: center;
+    }
+
+    .container-footer {
+        width: 95%;
+        margin: auto;
+        
+    }
+
+    div.txt-final-foot, div.term-final-foot {
+        width: 95%;
+    }
+
+    div.footer-li {
+        margin-right: 15px;
+        margin-left: 15px;
+        
+    }
+
+}
+
